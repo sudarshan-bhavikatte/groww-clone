@@ -8,20 +8,21 @@ export const Logo: React.FC<IconSvgProps> = ({
   height,
   ...props
 }) => (
-  <svg
-    fill="none"
-    height={size || height}
-    viewBox="0 0 32 32"
-    width={size || width}
-    {...props}
-  >
-    <path
-      clipRule="evenodd"
-      d="M17.6482 10.1305L15.8785 7.02583L7.02979 22.5499H10.5278L17.6482 10.1305ZM19.8798 14.0457L18.11 17.1983L19.394 19.4511H16.8453L15.1056 22.5499H24.7272L19.8798 14.0457Z"
-      fill="currentColor"
-      fillRule="evenodd"
-    />
-  </svg>
+<svg
+  fill="none"
+  height={size || height}
+  viewBox="0 0 32 32"
+  width={size || width}
+  {...props}
+>
+  <path
+    clipRule="evenodd"
+    d="M16 4C8.268 4 2 10.268 2 18C2 25.732 8.268 32 16 32C23.732 32 30 25.732 30 18C30 10.268 23.732 4 16 4ZM12 14L16 20L20 14H12ZM16 22C14.8954 22 14 21.1046 14 20C14 18.8954 14.8954 18 16 18C17.1046 18 18 18.8954 18 20C18 21.1046 17.1046 22 16 22Z"
+    fill="currentColor"
+    fillRule="evenodd"
+  />
+</svg>
+
 );
 
 export const DiscordIcon: React.FC<IconSvgProps> = ({
